@@ -1,0 +1,11 @@
+E:\Sistema\Repositorio\LojaWebMV\bin\LojaWeb.dll.config
+E:\Sistema\Repositorio\LojaWebMV\bin\LojaWeb.dll
+E:\Sistema\Repositorio\LojaWebMV\bin\LojaWeb.pdb
+E:\Sistema\Repositorio\LojaWebMV\bin\Styles.Color.Core.dll
+E:\Sistema\Repositorio\LojaWebMV\bin\Styles.Color.Shared.dll
+E:\Sistema\Repositorio\LojaWebMV\bin\Styles.Shared.dll
+E:\Sistema\Repositorio\LojaWebMV\obj\Debug\LojaWeb.csprojAssemblyReference.cache
+E:\Sistema\Repositorio\LojaWebMV\obj\Debug\LojaWeb.csproj.CoreCompileInputs.cache
+E:\Sistema\Repositorio\LojaWebMV\obj\Debug\LojaWeb.csproj.CopyComplete
+E:\Sistema\Repositorio\LojaWebMV\obj\Debug\LojaWeb.dll
+E:\Sistema\Repositorio\LojaWebMV\obj\Debug\LojaWeb.pdb

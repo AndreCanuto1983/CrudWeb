@@ -1,0 +1,18 @@
+﻿.botoes {
+    /*transition-duration: 1s;  #333*/
+    border: 2px solid DodgerBlue;
+    background-color: DodgerBlue;
+    color: white;
+    width: 90px;
+    float: right;
+    padding: 10px;
+    max-width: 100px;
+    margin: 2px; /*espaço entre os botões*/
+}
+
+.botoes:hover {
+        opacity: 0.4;
+        /*background-color: white;*/
+        border: 2px solid DodgerBlue;
+        color: white;
+    }

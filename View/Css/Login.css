@@ -1,0 +1,19 @@
+﻿.estiloLogin {
+    /*border:2px solid DodgerBlue;*/
+    border-top: 2px solid DodgerBlue;
+    border-bottom: 2px solid DodgerBlue;
+    padding: 50px;
+    background: white;
+    height: 300px;
+    width: 337px;
+    box-shadow: 0px 0px 20px #aaaaaa;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 13%;
+    margin-bottom: auto;
+}
+
+.txtBoxLogin {
+    padding: 15px;
+    Width: 89%;
+}

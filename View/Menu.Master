@@ -1,0 +1,90 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Menu.Master.cs" Inherits="LojaWeb.View.teste" %>
+
+<!DOCTYPE html>
+<html runat="server">
+<head runat="server">
+    <meta name="viewport" content="width=device-width, initial-scale=0.8">
+
+    <asp:ContentPlaceHolder runat="server" ID="Título">
+        <!--permito a mudança do título da tela-->
+        <title>Menu</title>
+    </asp:ContentPlaceHolder>
+
+    <link rel="stylesheet" href="Css/Botoes.css" />
+    <link rel="stylesheet" href="Css/Layout.css" />
+    <link rel="stylesheet" href="Css/MenuVertical.css" />
+</head>
+<body class="fundo">
+    <!-- Menu Vertical -->
+    <div class="posicaoMenuVertical">
+        <nav>
+            <div class="item">
+                <input type="checkbox" id="home">
+                <label for="home">Home</label>
+                <ul>
+                    <li><a href="Principal.aspx">Principal</a></li>
+                </ul>
+            </div>
+
+            <div class="item">
+                <input type="checkbox" id="administrativo">
+                <label for="administrativo">Administrativo</label>
+                <ul>
+                    <li><a href="#">Cadastro de Cliente</a></li>
+                    <li><a href="#">Relação de Cliente</a></li>
+                    <li><a href="#">Relação de Vendas por Cliente</a></li>
+                    <li><a href="#">Relação de vendas por Produto</a></li>
+                    <li><a href="#">Relação de vendas por Vendedor</a></li>
+                </ul>
+            </div>
+
+            <div class="item">
+                <input type="checkbox" id="financeiro">
+                <label for="financeiro">Financeiro</label>
+                <ul>
+                    <li><a href="#">Cadastro de Contas</a></li>
+                    <li><a href="#">Cadastro de Banco</a></li>
+                    <li><a href="#">Cadastro de Cartão</a></li>
+                </ul>
+            </div>
+
+            <div class="item">
+                <input type="checkbox" id="fiscal">
+                <label for="fiscal">Fiscal</label>
+                <ul>
+                    <li><a href="#">Cadastro de Regra de Imposto</a></li>
+                    <li><a href="#">Cadastro de Série</a></li>
+                    <li><a href="#">Cadastro de CFOP</a></li>
+                </ul>
+            </div>
+
+            <div class="item">
+                <input type="checkbox" id="compras">
+                <label for="compras">Compras</label>
+                <ul>
+                    <li><a href="#">Cadastro de Produto</a></li>
+                    <li><a href="#">Cadastro de Marca</a></li>
+                    <li><a href="#">Cadastro de Grupo</a></li>
+                    <li><a href="#">Cadastro de Subgrupo</a></li>
+                </ul>
+            </div>
+
+            <div class="item">
+                <input type="checkbox" id="rh">
+                <label for="rh">RH</label>
+                <ul>
+                    <li><a href="C_Usuario.aspx">Cadastro de Usuário</a></li>
+                    <li><a href="#">Cadastro de Funcionário</a></li>
+                    <li><a href="#">Cadastro de Ponto</a></li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+
+    <asp:ContentPlaceHolder runat="server" ID="subCorpo">
+        <!--Corpo -->
+        <div class="corpo">
+        </div>
+    </asp:ContentPlaceHolder>
+</body>
+</html>

@@ -1,0 +1,88 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    width: 200px;
+    height: auto;
+    font-family: 'Arial';
+    font-size: 13px;
+    font-stretch: ultra-expanded;
+    margin: 100px auto;
+    position: absolute;
+    margin-top: 0;
+    z-index: 1;
+    border-right: 2px solid DodgerBlue;
+    /*
+        border-left: 4px solid DodgerBlue;
+        border-right: 4px solid DodgerBlue;
+        #cacaca; cinza pouco escuro
+        #f3f3f3; cinza claro
+    */
+}
+
+.item label {
+    display: block;
+    padding: 10px;
+    background-color: #a9a9a9;
+    font-size: 15px;
+    cursor: pointer;
+    color: white;
+    border-bottom: solid 2px white;
+}
+
+    .item label:hover {
+        background-color: DodgerBlue;
+        color: white;
+        /*
+        border-left: 4px solid DodgerBlue;
+        border-right: 4px solid DodgerBlue;
+        */
+    }
+
+.item ul {
+    width: 100%;
+    list-style: none; /*tira os pontos da lista*/
+    overflow: hidden;
+    max-height: 0;
+    transition: all .4s linear;
+    font-style: italic;
+}
+
+.item input {
+    display: none;
+}
+
+.item ul li a {
+    width: 100%;
+    height: 20px;
+    padding: 10px;
+    display: block;
+    text-decoration: none;
+    background-color: #f9f9f9;
+    /*background-color: #E8E8E8;*/
+    color: black;
+    border-bottom: solid 2px white;
+}
+
+    .item ul li a:hover {
+        background-color: DodgerBlue;
+        color: white;
+    }
+
+.item input:checked ~ ul {
+    height: auto;
+    max-height: 200px;
+    transform: all;
+}
+
+.posicaoMenuVertical {
+    background-color: #a9a9a9;
+    position: absolute;
+    z-index: 1;
+    height: 100%;
+    width: 200px;
+    top: 0;
+    border-right: 2px solid DodgerBlue;
+}
